@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #f9df69;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomepageController">
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #0093af;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomepageController">
    <children>
       <GridPane layoutX="-1.0" layoutY="32.0" prefHeight="357.0" prefWidth="985.0">
         <columnConstraints>
@@ -15,8 +15,8 @@
         </columnConstraints>
         <rowConstraints>
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="300.0" minHeight="10.0" prefHeight="272.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="174.0" minHeight="6.0" prefHeight="34.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
             <Button fx:id="customersBtn" mnemonicParsing="false" onAction="#onCustomersClick" text="Customers" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
@@ -44,6 +44,15 @@
                   <Insets />
                </GridPane.margin>
             </Button>
+            <Button fx:id="searchBtn" mnemonicParsing="false" onAction="#onSearch" text="Search" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+             <font>
+                 <Font name="Verdana" size="18.0" />
+             </font>
+               <GridPane.margin>
+                  <Insets right="10.0" />
+               </GridPane.margin>
+            </Button>
+            <TextField fx:id="searchTF" GridPane.columnIndex="1" GridPane.rowIndex="2" />
          </children>
       </GridPane>
    </children>

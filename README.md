@@ -3,7 +3,7 @@
 **Title:** SoftCap App
 
 
-**Purpose:** The purpose of Scheduler App is to have a GUI-based scheduling desktop app completed per the requirements from the global consulting organization's contract.
+**Purpose:** The purpose of SoftCap App is to have a GUI-based scheduling desktop app completed per the requirements from the global consulting organization's contract.
 
 **Author:** Tanya R. Selvog
 

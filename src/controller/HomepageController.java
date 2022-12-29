@@ -91,4 +91,7 @@ public class HomepageController implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
     }
+
+    public void onSearch(ActionEvent actionEvent) {
+    }
 }
