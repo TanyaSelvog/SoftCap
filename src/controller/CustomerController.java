@@ -262,12 +262,14 @@ public class CustomerController implements Initializable {
     public void onSearch(ActionEvent actionEvent) {
         String customerResult = searchTF.getText();
         ObservableList<Customer> customerSearched = searchByPlayerName(customerResult);
+        System.out.println(customerSearched);
+
         customersTable.setItems(customerSearched);
     }
     private ObservableList<Customer> searchByPlayerName(String partialName){
         ObservableList<Customer> namedPlayers = FXCollections.observableArrayList();
 
-        ObservableList<Customer> seattleSounders = Customer.getAllPlayers();
+        ObservableList<Customer> seattleSounders = CustDB.getCustomersList();
 
         for(Customer footballer : seattleSounders){
             if(footballer.getCustomerName().contains(partialName)){

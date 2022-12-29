@@ -173,3 +173,12 @@ User test successfully logged in on 2022-04-29 16:18:39.3529326 UTC.
 User test successfully logged in on 2022-04-29 17:35:56.7940417 UTC. 
 User test successfully logged in on 2022-04-29 18:15:30.8972198 UTC. 
 User test successfully logged in on 2022-05-02 15:54:48.3220732 UTC. 
+User admin successfully logged in on 2022-12-29 09:19:27.7095633 UTC. 
+User admin successfully logged in on 2022-12-29 12:17:16.0898895 UTC. 
+User test was unable to log in on 2022-12-29 12:18:30.9551561 UTC. 
+User admin successfully logged in on 2022-12-29 12:18:37.0868221 UTC. 
+User admin successfully logged in on 2022-12-29 12:48:02.334505 UTC. 
+User admin successfully logged in on 2022-12-29 12:51:00.9698721 UTC. 
+User admin successfully logged in on 2022-12-29 13:03:43.9515127 UTC. 
+User admin successfully logged in on 2022-12-29 13:47:15.9872055 UTC. 
+User admin successfully logged in on 2022-12-29 13:54:24.3721843 UTC. 
