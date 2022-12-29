@@ -9,16 +9,16 @@
    <children>
       <StackPane prefHeight="150.0" prefWidth="200.0">
          <children>
-            <Label text="Customers">
+            <Label prefHeight="47.0" prefWidth="303.0" text="Customers">
                <font>
-                  <Font name="Verdana Bold" size="24.0" />
+                  <Font name="Verdana Bold" size="26.0" />
                </font>
                <StackPane.margin>
                   <Insets left="20.0" />
                </StackPane.margin>
             </Label>
          </children></StackPane>
-      <TableView fx:id="customersTable" layoutX="44.0" layoutY="106.0" prefHeight="376.0" prefWidth="893.0">
+      <TableView fx:id="customersTable" layoutX="40.0" layoutY="157.0" prefHeight="325.0" prefWidth="897.0">
         <columns>
           <TableColumn fx:id="customerID" prefWidth="90.0" text="Customer ID" />
           <TableColumn fx:id="name" prefWidth="229.0" text="Name" />
@@ -30,11 +30,11 @@
 
         </columns>
       </TableView>
-      <Button fx:id="addNewBtn" layoutX="44.0" layoutY="509.0" mnemonicParsing="false" onAction="#onAddNewCustomer" prefHeight="35.0" prefWidth="220.0" text="Add New Customer">
+      <Button fx:id="addNewBtn" layoutX="44.0" layoutY="509.0" mnemonicParsing="false" onAction="#onAddNewCustomer" prefHeight="35.0" prefWidth="180.0" text="Add Customer">
          <font>
             <Font name="Verdana" size="18.0" />
          </font></Button>
-      <Button fx:id="modifyBtn" layoutX="298.0" layoutY="509.0" mnemonicParsing="false" onAction="#onModifyCurrent" prefHeight="35.0" prefWidth="262.0" text="Modify Current Customer">
+      <Button fx:id="modifyBtn" layoutX="233.0" layoutY="509.0" mnemonicParsing="false" onAction="#onModifyCurrent" prefHeight="35.0" prefWidth="140.0" text="Modify">
          <font>
             <Font name="Verdana" size="18.0" />
          </font></Button>
@@ -42,10 +42,16 @@
          <font>
             <Font name="Verdana" size="18.0" />
          </font></Button>
-      <Button fx:id="deleteCustomerBtn" layoutX="595.0" layoutY="509.0" mnemonicParsing="false" onAction="#onDeleteClick" text="Delete Customer">
+      <Button fx:id="deleteCustomerBtn" layoutX="381.0" layoutY="509.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onDeleteClick" prefHeight="35.0" prefWidth="140.0" text="Delete">
          <font>
             <Font name="Verdana" size="18.0" />
          </font>
       </Button>
+      <Button fx:id="searchBtn" layoutX="513.0" layoutY="101.0" mnemonicParsing="false" onAction="#onSearch" text="Customer Search">
+          <font>
+              <Font name="Verdana" size="18.0" />
+          </font>
+      </Button>
+      <TextField fx:id="searchTF" layoutX="717.0" layoutY="101.0" prefHeight="35.0" prefWidth="220.0" />
    </children>
 </AnchorPane>

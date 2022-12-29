@@ -100,6 +100,8 @@ public class CustomerController implements Initializable {
     @FXML
     public Button deleteCustomerBtn;
 
+    public TextField searchTF;
+
     /**
      * Stage
      */
@@ -257,6 +259,24 @@ public class CustomerController implements Initializable {
     }
 
 
+    public void onSearch(ActionEvent actionEvent) {
+        String customerResult = searchTF.getText();
+        ObservableList<Customer> customerSearched = searchByPlayerName(customerResult);
+        customersTable.setItems(customerSearched);
+    }
+    private ObservableList<Customer> searchByPlayerName(String partialName){
+        ObservableList<Customer> namedPlayers = FXCollections.observableArrayList();
 
+        ObservableList<Customer> seattleSounders = Customer.getAllPlayers();
+
+        for(Customer footballer : seattleSounders){
+            if(footballer.getCustomerName().contains(partialName)){
+                namedPlayers.add(footballer);
+            }
+        }
+
+        return namedPlayers;
+
+    }
 }
 

@@ -44,15 +44,7 @@
                   <Insets />
                </GridPane.margin>
             </Button>
-            <Button fx:id="searchBtn" mnemonicParsing="false" onAction="#onSearch" text="Search" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
-             <font>
-                 <Font name="Verdana" size="18.0" />
-             </font>
-               <GridPane.margin>
-                  <Insets right="10.0" />
-               </GridPane.margin>
-            </Button>
-            <TextField fx:id="searchTF" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
          </children>
       </GridPane>
    </children>

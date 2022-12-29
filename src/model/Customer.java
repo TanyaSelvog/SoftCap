@@ -1,5 +1,8 @@
 package model;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+
 /**
  * This class provides general data about Customers
  */
@@ -43,7 +46,7 @@ public class Customer {
      * Customer Division Name
      */
     private String customerDivision;
-
+    private static ObservableList<Customer> seattleSounders = FXCollections.observableArrayList();
 
 
     /**
@@ -234,7 +237,9 @@ public class Customer {
     public void setCustomerDivision(String customerDivision){
         this.customerDivision = customerDivision;
     }
-
+    public static ObservableList<Customer> getAllPlayers() {
+        return seattleSounders;
+    }
     @Override
     public String toString(){
         // return (getClass().getName() + '@' + Integer.toHexString(hashCode()));
