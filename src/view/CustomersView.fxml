@@ -9,7 +9,7 @@
    <children>
       <StackPane prefHeight="150.0" prefWidth="200.0">
          <children>
-            <Label prefHeight="47.0" prefWidth="303.0" text="Customers">
+            <Label prefHeight="47.0" prefWidth="303.0" text="Clients">
                <font>
                   <Font name="Verdana Bold" size="26.0" />
                </font>
@@ -20,7 +20,7 @@
          </children></StackPane>
       <TableView fx:id="customersTable" layoutX="40.0" layoutY="157.0" prefHeight="325.0" prefWidth="897.0">
         <columns>
-          <TableColumn fx:id="customerID" prefWidth="90.0" text="Customer ID" />
+          <TableColumn fx:id="customerID" prefWidth="90.0" text="ID" />
           <TableColumn fx:id="name" prefWidth="229.0" text="Name" />
             <TableColumn fx:id="address" prefWidth="167.0" text="Address" />
             <TableColumn fx:id="postalCode" prefWidth="94.0" text="Postal Code" />
@@ -30,7 +30,7 @@
 
         </columns>
       </TableView>
-      <Button fx:id="addNewBtn" layoutX="44.0" layoutY="509.0" mnemonicParsing="false" onAction="#onAddNewCustomer" prefHeight="35.0" prefWidth="180.0" text="Add Customer">
+      <Button fx:id="addNewBtn" layoutX="44.0" layoutY="509.0" mnemonicParsing="false" onAction="#onAddNewCustomer" prefHeight="35.0" prefWidth="180.0" text="Add Client">
          <font>
             <Font name="Verdana" size="18.0" />
          </font></Button>
@@ -47,7 +47,7 @@
             <Font name="Verdana" size="18.0" />
          </font>
       </Button>
-      <Button fx:id="searchBtn" layoutX="513.0" layoutY="101.0" mnemonicParsing="false" onAction="#onSearch" text="Customer Search">
+      <Button fx:id="searchBtn" layoutX="513.0" layoutY="101.0" mnemonicParsing="false" onAction="#onSearch" text="Client Search">
           <font>
               <Font name="Verdana" size="18.0" />
           </font>
