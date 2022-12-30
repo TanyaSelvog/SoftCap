@@ -23,7 +23,7 @@
                               <TableColumn fx:id="typeWeekly" prefWidth="79.0" text="Type" />
                               <TableColumn fx:id="startWeekly" prefWidth="125.0" text="Start Date &amp; Time" />
                               <TableColumn fx:id="endWeekly" prefWidth="112.0" text="End Date &amp; Time" />
-                              <TableColumn fx:id="customerWeekly" prefWidth="89.0" text="Customer ID" />
+                              <TableColumn fx:id="customerWeekly" prefWidth="89.0" text="ID" />
                               <TableColumn fx:id="userIDweekly" prefWidth="61.0" text="User ID" />
                               <TableColumn fx:id="apptIDweekly" prefWidth="118.0" text="Appointment ID" />
 
@@ -44,7 +44,7 @@
                               <TableColumn fx:id="typeMonthly" prefWidth="64.0" text="Type" />
                               <TableColumn fx:id="startMonthly" prefWidth="125.0" text="Start Date &amp; Time" />
                               <TableColumn fx:id="endMonthly" prefWidth="111.0" text="End Date &amp; Time" />
-                              <TableColumn fx:id="customerMonthly" prefWidth="87.0" text="Customer ID" />
+                              <TableColumn fx:id="customerMonthly" prefWidth="87.0" text="ID" />
                               <TableColumn fx:id="userIDmonthly" prefWidth="55.0" text="User ID" />
                               <TableColumn fx:id="apptIDmonthly" prefWidth="168.0" text="Appointment ID" />
 
@@ -65,7 +65,7 @@
                                   <TableColumn fx:id="typeAllAppts" prefWidth="75.0" text="Type" />
                                   <TableColumn fx:id="startAllAppts" prefWidth="75.0" text="Start Date &amp; Time" />
                                   <TableColumn fx:id="endAllAppts" prefWidth="75.0" text="End Date &amp; Time" />
-                                  <TableColumn fx:id="customerAllAppts" prefWidth="137.0" text="Customer ID" />
+                                  <TableColumn fx:id="customerAllAppts" prefWidth="137.0" text="ID" />
                                   <TableColumn fx:id="idUserAllAppts" prefWidth="74.0" text="User ID" />
                                   <TableColumn fx:id="idApptAllAppt" prefWidth="174.0" text="Appointment ID" />
                               </columns>

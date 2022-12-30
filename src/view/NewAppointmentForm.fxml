@@ -81,7 +81,7 @@
             <DatePicker fx:id="newApptDate" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="29.0" prefWidth="236.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
             <ComboBox fx:id="startTimeCB" prefWidth="236.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
             <ComboBox fx:id="endTimeCB" prefWidth="236.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
-            <Label text="Customer" GridPane.columnIndex="3">
+            <Label text="Client" GridPane.columnIndex="3">
                <font>
                   <Font name="Verdana" size="18.0" />
                </font></Label>

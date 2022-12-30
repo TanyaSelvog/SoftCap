@@ -20,8 +20,8 @@
 
    <TableView fx:id="countryTable" layoutX="365.0" layoutY="137.0" prefHeight="219.0" prefWidth="561.0">
       <columns>
-         <TableColumn fx:id="custIDCol" prefWidth="123.0" text="Customer ID" />
-         <TableColumn fx:id="customerCol" prefWidth="437.0" text="Customer Name" />
+         <TableColumn fx:id="custIDCol" prefWidth="123.0" text="ID" />
+         <TableColumn fx:id="customerCol" prefWidth="437.0" text="Client Name" />
 
 
       </columns>

@@ -8,7 +8,7 @@
 
 
 
-    <Label layoutX="279.0" layoutY="77.0" text="Monthly Customer Appointment Report">
+    <Label layoutX="279.0" layoutY="77.0" text="Monthly Client Appointment Report">
         <font>
         <Font name="Verdana Bold" size="24.0" />
         </font></Label>

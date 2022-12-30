@@ -81,7 +81,7 @@
             </Label>
             <ComboBox fx:id="typeComboBox" prefHeight="29.0" prefWidth="236.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
             <ComboBox fx:id="customerComboBox" prefHeight="29.0" prefWidth="236.0" GridPane.columnIndex="4" />
-            <Label prefHeight="19.0" prefWidth="112.0" text="Customer" GridPane.columnIndex="3">
+            <Label prefHeight="19.0" prefWidth="112.0" text="Client" GridPane.columnIndex="3">
                <font>
                   <Font name="Verdana" size="18.0" />
                </font>
