@@ -167,7 +167,7 @@ public class CustomerController implements Initializable {
     public void onAddNewCustomer(ActionEvent actionEvent) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/view/CustomerForm.fxml"));
         Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        stage.setTitle("Add New Customer");
+        stage.setTitle("Add New Client");
         Scene scene = new Scene(root, 1000, 600);
         stage.setScene(scene);
         stage.show();

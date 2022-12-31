@@ -73,7 +73,7 @@ public class ReportsController implements Initializable {
     public void onMonthlyBtn(ActionEvent actionEvent) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/view/MonthlyCustomersReport.fxml"));
         Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        stage.setTitle("Monthly Customers Report");
+        stage.setTitle("Monthly Clients Report");
         Scene scene = new Scene(root, 1000, 600);
         stage.setScene(scene);
         stage.show();
