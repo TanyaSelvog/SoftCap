@@ -11,13 +11,13 @@
     </Label>
    <TableView fx:id="contactTable" layoutX="348.0" layoutY="137.0" prefHeight="200.0" prefWidth="578.0">
      <columns>
-       <TableColumn fx:id="apptIDCol" prefWidth="75.0" text="Appt ID" />
-         <TableColumn fx:id="titleCol" prefWidth="75.0" text="Title" />
-       <TableColumn fx:id="typeCol" prefWidth="75.0" text="Type" />
-         <TableColumn fx:id="descCol" prefWidth="75.0" text="Description" />
-         <TableColumn fx:id="startCol" prefWidth="75.0" text="Start Date &amp; Time" />
-         <TableColumn fx:id="endCol" prefWidth="75.0" text="End Date &amp; Time" />
-         <TableColumn fx:id="custIDCol" prefWidth="75.0" text="ID" />
+       <TableColumn fx:id="apptIDCol" prefWidth="52.0" text="Appt ID" />
+         <TableColumn fx:id="titleCol" prefWidth="79.0" text="Title" />
+       <TableColumn fx:id="typeCol" prefWidth="78.0" text="Type" />
+         <TableColumn fx:id="descCol" prefWidth="117.0" text="Description" />
+         <TableColumn fx:id="startCol" prefWidth="110.0" text="Start Date &amp; Time" />
+         <TableColumn fx:id="endCol" prefWidth="102.0" text="End Date &amp; Time" />
+         <TableColumn fx:id="custIDCol" prefWidth="39.0" text="ID" />
      </columns>
    </TableView>
    <ComboBox fx:id="contactCB" layoutX="143.0" layoutY="169.0" prefHeight="29.0" prefWidth="174.0" />

@@ -59,7 +59,7 @@ public class ReportsController implements Initializable {
     public void onContactBtn(ActionEvent actionEvent) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/view/ContactSchedule.fxml"));
         Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        stage.setTitle("Contact Schedule Reports");
+        stage.setTitle("Contact Schedule Report");
         Scene scene = new Scene(root, 1000, 600);
         stage.setScene(scene);
         stage.show();

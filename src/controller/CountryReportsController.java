@@ -98,7 +98,7 @@ public class CountryReportsController implements Initializable {
     public void onHomeBtn(ActionEvent actionEvent) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/view/HomepageWindow.fxml"));
         Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        stage.setTitle("Scheduler Homepage");
+        stage.setTitle("SoftCap Scheduler Homepage");
         Scene scene = new Scene(root, 1000, 600);
         stage.setScene(scene);
         stage.show();
