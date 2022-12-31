@@ -4,6 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
+<?import javafx.geometry.Insets?>
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #0093af;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
    <children>
       <GridPane layoutX="172.0" layoutY="210.0" prefHeight="326.0" prefWidth="552.0" style="-fx-background-color: #0093af;">
@@ -31,6 +32,10 @@
                <font>
                   <Font name="Verdana" size="18.0" />
                </font>
+                <GridPane.margin>
+                    <Insets right="10.0"/>
+                </GridPane.margin>
+
             </Label>
             <TextField fx:id="usernameTF" prefHeight="29.0" prefWidth="204.0" GridPane.columnIndex="1" />
             <TextField fx:id="passwordTF" GridPane.columnIndex="1" GridPane.rowIndex="1" />

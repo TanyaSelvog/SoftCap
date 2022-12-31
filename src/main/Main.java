@@ -17,7 +17,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/view/LoginWindow.fxml"));
-        primaryStage.setTitle("Welcome to Scheduler!");
+        primaryStage.setTitle("Welcome to SoftCap Scheduler!");
         primaryStage.setScene(new Scene(root, 1000, 600));
         primaryStage.show();
 
