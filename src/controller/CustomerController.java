@@ -183,9 +183,9 @@ public class CustomerController implements Initializable {
         Customer modCustomer = customersTable.getSelectionModel().getSelectedItem();
         if (modCustomer == null) {
             Alert alert = new Alert(Alert.AlertType.ERROR);
-            alert.setTitle("Modify a Customer");
+            alert.setTitle("Modify a Client");
             alert.setHeaderText("Error");
-            alert.setContentText("Select a Customer to modify.");
+            alert.setContentText("Select a Client to modify.");
             alert.showAndWait();
     }else {
             try {
@@ -235,7 +235,7 @@ public class CustomerController implements Initializable {
 
         if (deletedCustomer != null) {
             Alert alertDelete = new Alert(Alert.AlertType.CONFIRMATION);
-            alertDelete.setContentText("Do you want to delete the selected customer?");
+            alertDelete.setContentText("Do you want to delete the selected client?");
             Optional<ButtonType> userAnswer = alertDelete.showAndWait();
 
             if (userAnswer.isPresent() && userAnswer.get() == ButtonType.OK) {
@@ -247,7 +247,7 @@ public class CustomerController implements Initializable {
                 Alert alert = new Alert(Alert.AlertType.INFORMATION,
                         ("The records for " + deletedCustomer.getCustomerName()  + " have been deleted."));
 
-                alert.setTitle("Customer deleted.");
+                alert.setTitle("Client deleted.");
                 alert.showAndWait();
 
             }

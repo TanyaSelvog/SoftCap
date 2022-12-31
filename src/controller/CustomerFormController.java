@@ -123,7 +123,7 @@ public class CustomerFormController implements Initializable {
     public void onHome(ActionEvent actionEvent) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/view/HomepageWindow.fxml"));
         Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        stage.setTitle("Modify Current Customer");
+        stage.setTitle("Modify Current Client");
         Scene scene = new Scene(root, 1000, 600);
         stage.setScene(scene);
         stage.show();
@@ -157,7 +157,7 @@ public class CustomerFormController implements Initializable {
             CustDB.createCustomer(custName, custAddress, customerPostal, custPhone, divisionID);
             Parent root = FXMLLoader.load(getClass().getResource("/view/CustomersView.fxml"));
             Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-            stage.setTitle("All Customers");
+            stage.setTitle("All Clients");
             Scene scene = new Scene(root, 1000, 600);
             stage.setScene(scene);
         }
@@ -174,7 +174,7 @@ public class CustomerFormController implements Initializable {
     public void onCancelBtn(ActionEvent actionEvent) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/view/CustomersView.fxml"));
         Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        stage.setTitle("All Customers");
+        stage.setTitle("All Clients");
         Scene scene = new Scene(root, 1000, 600);
         stage.setScene(scene);
         stage.show();

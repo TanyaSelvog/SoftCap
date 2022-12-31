@@ -161,7 +161,7 @@ public class ModifyCustomerFormController implements Initializable {
             if (customer !=null){
                 Parent root = FXMLLoader.load(getClass().getResource("/view/CustomersView.fxml"));
                 Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-                stage.setTitle("All Customers");
+                stage.setTitle("All Clients");
                 Scene scene = new Scene(root, 1000, 600);
                 stage.setScene(scene);
                 stage.show();
@@ -176,7 +176,7 @@ public class ModifyCustomerFormController implements Initializable {
     public void onCancelBtn(ActionEvent actionEvent) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/view/CustomersView.fxml"));
         Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        stage.setTitle("All Customers");
+        stage.setTitle("All Clients");
         Scene scene = new Scene(root, 1000, 600);
         stage.setScene(scene);
         stage.show();
