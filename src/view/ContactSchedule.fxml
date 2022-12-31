@@ -17,7 +17,7 @@
          <TableColumn fx:id="descCol" prefWidth="75.0" text="Description" />
          <TableColumn fx:id="startCol" prefWidth="75.0" text="Start Date &amp; Time" />
          <TableColumn fx:id="endCol" prefWidth="75.0" text="End Date &amp; Time" />
-         <TableColumn fx:id="custIDCol" prefWidth="75.0" text="Customer ID" />
+         <TableColumn fx:id="custIDCol" prefWidth="75.0" text="ID" />
      </columns>
    </TableView>
    <ComboBox fx:id="contactCB" layoutX="143.0" layoutY="169.0" prefHeight="29.0" prefWidth="174.0" />
