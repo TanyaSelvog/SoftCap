@@ -201,6 +201,7 @@ public class CustomerController implements Initializable {
                 //set the stage
                 stage = (Stage) ((Button) actionEvent.getSource()).getScene().getWindow();
                 scene = loader.getRoot();
+                stage.setTitle("Modify Client");
                 stage.setScene(new Scene(scene));
                 stage.show();
 
