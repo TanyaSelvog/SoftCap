@@ -419,7 +419,7 @@ public class ApptsController implements Initializable {
                 ApptsDB.deleteAppointment(deletedAppt.getApptID());
 
                 Alert alert = new Alert(Alert.AlertType.INFORMATION,
-                        (apptType +" with appointment ID: " + apptID + " has been deleted."));
+                        (apptType +" with an appointment ID of: " + apptID + " has been deleted."));
 
                 alert.setTitle("Appointment deleted.");
                 alert.showAndWait();
