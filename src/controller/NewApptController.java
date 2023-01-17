@@ -141,8 +141,8 @@ public class NewApptController implements Initializable {
 
 
         ZoneId easternStandardTime = ZoneId.of("America/New_York");
-        ZonedDateTime startTime = ZonedDateTime.of(2022, 1, 1, 8, 0, 0, 0, easternStandardTime);
-        ZonedDateTime endTime = ZonedDateTime.of(2022, 1, 1, 22, 0, 0, 0, easternStandardTime);
+        ZonedDateTime startTime = ZonedDateTime.of(2023, 1, 1, 8, 0, 0, 0, easternStandardTime);
+        ZonedDateTime endTime = ZonedDateTime.of(2023, 1, 1, 22, 0, 0, 0, easternStandardTime);
 
         LocalTime startOfBusiness = startTime.withZoneSameInstant(ZoneId.systemDefault()).toLocalTime();
         LocalTime endOfBusiness = endTime.withZoneSameInstant(ZoneId.systemDefault()).toLocalTime();
