@@ -253,7 +253,7 @@ public class CustomerController implements Initializable {
 
             }
         } else {
-            Alert alert = new Alert(Alert.AlertType.ERROR, ("Select an appointment to delete."));
+            Alert alert = new Alert(Alert.AlertType.ERROR, ("Select a client to delete."));
             alert.showAndWait();
         }
 
