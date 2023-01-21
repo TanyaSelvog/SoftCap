@@ -4,13 +4,13 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #0093af;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ApptsController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #0093Af;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ApptsController">
    <children>
       <StackPane layoutX="46.0" layoutY="85.0" prefHeight="401.0" prefWidth="910.0">
          <children>
             <TabPane fx:id="apptsTabPane" prefHeight="393.0" prefWidth="902.0" tabClosingPolicy="UNAVAILABLE">
               <tabs>
-                <Tab fx:id="weeklyTab"  text="Weekly">
+                <Tab fx:id="weeklyTab" text="Weekly">
                   <content>
                       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
                       <TableView fx:id="weeklyTable" prefHeight="452.0" prefWidth="848.0">
@@ -32,7 +32,7 @@
 
                   </content>
                 </Tab>
-                <Tab fx:id="monthlyTab"  text="Monthly">
+                <Tab fx:id="monthlyTab" text="Monthly">
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
                       <TableView fx:id="monthlyTable" prefHeight="366.0" prefWidth="896.0">
@@ -53,7 +53,7 @@
                       </TableView>
                   </content>
                 </Tab>
-                  <Tab fx:id="allApptsTab"  text="All Appointments">
+                  <Tab fx:id="allApptsTab" text="All Appointments">
                       <content>
                           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
                           <TableView fx:id="allApptsTable" prefHeight="452.0" prefWidth="848.0">
